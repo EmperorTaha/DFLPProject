@@ -1,0 +1,9 @@
+X[X['label'] == 1].days_last_order.plot(kind='hist', color='blue', edgecolor='black', alpha=0.5, figsize=(10, 7))
+X[X['label'] == 0].days_last_order.plot(kind='hist', color='magenta', edgecolor='black', alpha=0.5, figsize=(10, 7))
+plt.legend(labels=['Customer Churned', 'Customer Retained'])
+plt.title('Distribution of Height', size=24)
+plt.xlabel('Height (inches)', size=18)
+plt.ylabel('Frequency', size=18);
+
+YASS = YASS.drop(YASS.index[8], inplace=True)
+print(corre.head(9))

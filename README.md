@@ -1,1 +1,2 @@
-# DFLPProject
+# Case_Study_Project
+<p>This was a project that was assigned as a case study for one of the company&apos;s recruitment programs. Train Data was provided for all the users with various parameters associated with each user and then using parameters, gauging how likely is the user to churn or be retained as a long-term customer. Once that is done, the recruiters ask about the 3 top parameters which had the most significant impact on the user churn rate.&nbsp;</p>
